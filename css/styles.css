@@ -1,0 +1,115 @@
+body{
+    background: url(../img/minimalist-7xpryajznty61ra3.png) no-repeat;
+    opacity: 1;
+    background-position:center center;
+    background-size:cover;
+    width: 350px;
+    height:500px;
+    background-color: #220C21;
+}
+.upped{
+    backdrop-filter: blur(10px);
+    background-color: rgb(48, 48, 48);
+    opacity: 0.9;
+    width: 385px;
+    height: 20px;
+    color: white;
+    padding: 11px;
+    margin-left: 580px;
+    display: inline-flex;
+    word-spacing: 4px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px 1px rgb(48, 48, 48);
+}
+
+
+.logo{
+    margin-left: 10px;
+    font-family: monospace;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.nav{
+    margin-left: 40px;
+    font-family: segoe ui;
+    display: inline-block;
+    margin-bottom: 10px;
+    word-spacing: 10px;
+}
+
+.click{
+    background-color: white;
+    color: rgb(48, 48, 48);
+    padding: 5px;
+    border-color: white;
+    border-radius: 10px;   
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.hoverr:hover{
+    border-bottom: 2px solid white;
+}
+
+.about{
+    font-size: 50px;
+    margin-top: 250px;
+    font-family: monospace;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    margin-left: 360px;
+    text-align: center;
+    white-space: nowrap;
+    animation: borderr 900ms infinite;
+}
+
+
+@keyframes borderr{
+    0%{
+        border-right: none;
+    }
+
+    100%{
+        border-right: 4px solid rgb(255, 255, 255);
+    }
+}
+
+
+.block{
+    margin-left: 100px;
+    margin-top: 367px;
+    color: white;
+    font-family: calibri;
+    word-wrap:break-word;
+    white-space:unset;
+    font-size: 24px;
+    width: 400px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.block4{
+    margin-left: 900px;
+    margin-top: 200px;
+    color: white;
+    font-family: calibri;
+    word-wrap:break-word;
+    white-space:unset;
+    font-size: 24px;
+    width: 400px;
+    display: inline-flex;
+    vertical-align: top;
+    text-align: left;
+    float: left;
+}
+
+.block3{
+    display: inline-block;
+    background-color: #220C21;
+    width: 100%;
+    height: 100px;
+}

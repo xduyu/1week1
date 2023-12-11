@@ -1,0 +1,113 @@
+
+
+body{
+    background: url(../img/minimalist-7xpryajznty61ra3.png) no-repeat;
+    opacity: 1;
+    background-position:center center;
+    background-size:cover;
+    width: 350px;
+    height:500px;
+    background-color: #220C21;
+}
+.upped{
+    backdrop-filter: blur(10px);
+    background-color: rgb(48, 48, 48);
+    opacity: 0.9;
+    width: 385px;
+    height: 20px;
+    color: white;
+    padding: 11px;
+    margin-left: 560px;
+    display: inline-flex;
+    word-spacing: 4px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px 1px rgb(48, 48, 48);
+}
+
+
+.logo{
+    margin-left: 10px;
+    font-family: monospace;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.nav{
+    margin-left: 40px;
+    font-family: segoe ui;
+    display: inline-block;
+    margin-bottom: 10px;
+    word-spacing: 10px;
+}
+
+.click{
+    background-color: white;
+    color: rgb(48, 48, 48);
+    padding: 5px;
+    border-color: white;
+    border-radius: 10px;   
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.hoverr:hover{
+    border-bottom: 2px solid white;
+}
+
+.footer{
+    margin-top: 1150px;
+    background-color: rgb(22, 22, 22);
+    width: 100px;
+    height: 10px;
+}
+
+.block{
+    right: 1410px;
+    z-index: 1;
+    top: 1000px;
+    position: absolute;
+    width: 150px;
+    height: 400px;
+    border: 2px solid white;
+}
+
+.serdce{
+    top: 10px;
+    position: relative;
+    left: 55px;
+    color: white;
+    width: 80px;
+}
+
+.mylike{
+    top: 190px;
+    position: relative;
+    left: 45px;
+    width: 98px;
+}
+
+.info{
+    font-size: 50px;
+    margin-top: 250px;
+    font-family: monospace;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    margin-left: 559px;
+    text-align: center;
+    white-space: nowrap;
+    animation: borderr 900ms infinite;
+}
+
+
+@keyframes borderr{
+    0%{
+        border-right: none;
+    }
+
+    100%{
+        border-right: 4px solid rgb(255, 255, 255);
+    }
+}

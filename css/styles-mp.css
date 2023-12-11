@@ -1,0 +1,79 @@
+body{
+    background: url(../img/1645627691_6-abrakadabra-fun-p-oboi-igrovie-minimalizm-10.jpg) no-repeat;
+    opacity: 1;
+    background-position:center center;
+    background-size:cover;
+    width: 350px;
+    height:500px;
+    background-color: #02000d;
+}
+
+.upped{
+    backdrop-filter: blur(10px);
+    background-color: rgb(48, 48, 48);
+    opacity: 0.9;
+    width: 385px;
+    height: 20px;
+    color: white;
+    padding: 11px;
+    margin-left: 580px;
+    display: inline-flex;
+    word-spacing: 4px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px 1px rgb(48, 48, 48);
+}
+
+.logo{
+    margin-left: 10px;
+    font-family: monospace;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.nav{
+    margin-left: 40px;
+    font-family: segoe ui;
+    display: inline-block;
+    margin-bottom: 10px;
+    word-spacing: 10px;
+}
+
+.click{
+    background-color: white;
+    color: rgb(48, 48, 48);
+    padding: 5px;
+    border-color: white;
+    border-radius: 10px;   
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.hoverr:hover{
+    border-bottom: 2px solid white;
+}
+
+.about{
+    font-size: 50px;
+    margin-top: 250px;
+    font-family: monospace;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    margin-left: 620px;
+    text-align: center;
+    white-space: nowrap;
+    animation: borderr 1000ms infinite;
+    padding-right: 10px;
+}
+
+@keyframes borderr{
+    0%{
+        border-right: none;
+    }
+
+    100%{
+        border-right: 4px solid rgb(255, 255, 255);
+    }
+}
